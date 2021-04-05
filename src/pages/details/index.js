@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { PRODUCT } from "../../redux/actions/actionTypes";
-import PageHeading from "../../components/pageHeading";
+// import PageHeading from "../../components/pageHeading";
 import Product from "../../components/products/product";
 
 const Details = () => {

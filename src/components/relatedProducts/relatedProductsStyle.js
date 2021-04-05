@@ -8,3 +8,13 @@ export const SindleFeature = styled.div`
 	justify-content: center;
 	margin: 0 auto;
 `;
+
+export const RelatedProds = styled.div`
+	min-height: 500px;
+	width: 80%;
+	margin: 0 auto;
+`;
+
+export const RelatedHeading = styled.h2`
+	margin-bottom: 5rem;
+`;

@@ -156,8 +156,8 @@ const Product = ({ proDetail }) => {
 						</AddButtons>
 					</ProductRight>
 				</Wrapper>
-				<RelatedProducts />
 			</Container>
+			<RelatedProducts />
 		</div>
 	);
 };
