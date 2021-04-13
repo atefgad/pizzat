@@ -157,7 +157,7 @@ const Product = ({ proDetail }) => {
 					</ProductRight>
 				</Wrapper>
 			</Container>
-			<RelatedProducts />
+			<RelatedProducts caty={category} />
 		</div>
 	);
 };

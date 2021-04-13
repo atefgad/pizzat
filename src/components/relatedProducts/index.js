@@ -5,8 +5,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
 import { RelatedProds, RelatedHeading } from "./relatedProductsStyle";
+import RelatedProCard from "./relatedProCard";
+import { useSelector } from "react-redux";
 
-const RelatedProducts = () => {
+const RelatedProducts = ({ caty }) => {
+	const { products } = useSelector((state) => state.ProductsReducer);
+	const RelatedProductsList = products.filter(
+		(product) => product.category === caty
+	);
+
 	return (
 		<RelatedProds>
 			<RelatedHeading>You may also like…</RelatedHeading>
@@ -17,7 +24,14 @@ const RelatedProducts = () => {
 				onSlideChange={() => console.log("slide change")}
 				onSwiper={(swiper) => console.log(swiper)}
 			>
-				<SwiperSlide>Slide 1</SwiperSlide>
+				{RelatedProductsList.map((product, idx) => {
+					return (
+						<SwiperSlide key={idx}>
+							<RelatedProCard RelatedProducts={product} />
+						</SwiperSlide>
+					);
+				})}
+
 				<SwiperSlide>Slide 2</SwiperSlide>
 				<SwiperSlide>Slide 3</SwiperSlide>
 				<SwiperSlide>Slide 4</SwiperSlide>
