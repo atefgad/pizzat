@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# PizZat - online food delivery 
+PizZat - online food delivery | Reactjs web app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+# Tools && Technicals
+  [Reactjs - Redux - Styled-components - Framer motion]
+  
 
-## Available Scripts
+# Preview
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Live demo => pizzzat.atef-gad.com/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![mokup1-multi](https://user-images.githubusercontent.com/31800681/214326849-282e322a-2bd8-49e5-8c9e-ae11de938404.jpg)
+![Capture2](https://user-images.githubusercontent.com/31800681/214327101-60980a78-ad3a-48ca-9890-76fecaa41779.PNG)
+![Capture4](https://user-images.githubusercontent.com/31800681/214327124-effe8666-3194-4506-8756-9df8e7b8641d.PNG)
+![pizzzat main](https://user-images.githubusercontent.com/31800681/214327135-9bd30552-f11f-4984-82c4-a774ded50c56.png)
+![pizzzat-2](https://user-images.githubusercontent.com/31800681/214327254-f97a2397-4b07-4d9a-8b74-654e44d77695.png)
+![screencapture-pizzzat](https://user-images.githubusercontent.com/31800681/214327034-d1176613-2928-4c13-ac28-da76742e4b8b.png)
